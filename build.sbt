@@ -15,7 +15,7 @@ scalacOptions ++= Seq(
 )
 
 // libraryDependencies += "org.typelevel" %% "cats-core" % "1.4.0"
-libraryDependencies += "org.typelevel" %% "cats-mtl-core" % "0.3.0"
+libraryDependencies += "org.typelevel" %% "cats-mtl-core" % "0.4.0"
 libraryDependencies += "org.typelevel" %% "kittens" % "1.1.0"
 
 
