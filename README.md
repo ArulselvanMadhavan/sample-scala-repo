@@ -95,6 +95,3 @@ join us in our chat room on [Gitter][gitter].
 [gitter]: https://gitter.im/underscoreio/scala?utm_source=essential-scala-readme&utm_medium=badge&utm_campaign=essential-scala
 [atom]: https://atom.io
 [scala-ide]: http://scala-ide.org
-[sbteclipse]: https://github.com/typesafehub/sbteclipse
-[intellij-idea]: https://www.jetbrains.com/idea
-[intellij-setup]: https://www.jetbrains.com/help/idea/2016.1/getting-started-with-sbt.html#import_project
