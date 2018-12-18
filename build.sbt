@@ -17,6 +17,6 @@ scalacOptions ++= Seq(
 // libraryDependencies += "org.typelevel" %% "cats-core" % "1.4.0"
 libraryDependencies += "org.typelevel" %% "cats-mtl-core" % "0.3.0"
 libraryDependencies += "org.typelevel" %% "kittens" % "1.0.0"
-libraryDependencies += "com.github.alexarchambault" %% "case-app" % "1.0.0"
+libraryDependencies += "com.github.alexarchambault" %% "case-app" % "1.2.0"
 
 // addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.3")
