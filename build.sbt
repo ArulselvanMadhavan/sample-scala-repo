@@ -19,6 +19,6 @@ libraryDependencies += "org.typelevel" %% "cats-mtl-core" % "0.3.0"
 libraryDependencies += "org.typelevel" %% "kittens" % "1.0.0"
 libraryDependencies += "com.github.alexarchambault" %% "case-app" % "1.0.0"
 libraryDependencies ++= Seq(
-  "eu.timepit" %% "refined"                 % "0.9.0"
+  "eu.timepit" %% "refined"                 % "0.9.3"
 )
 // addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.3")
