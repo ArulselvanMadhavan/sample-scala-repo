@@ -14,6 +14,14 @@ scalacOptions ++= Seq(
   "-Ypartial-unification" // allow the compiler to unify type constructors of different arities
 )
 
+val monocleVersion = "1.4.0" // 1.5.0-cats based on cats 1.0.x
+
+libraryDependencies ++= Seq(
+  "com.github.julien-truffaut" %%  "monocle-core"  % monocleVersion,
+  "com.github.julien-truffaut" %%  "monocle-macro" % monocleVersion,
+  "com.github.julien-truffaut" %%  "monocle-law"   % monocleVersion % "test"
+)
+
 // libraryDependencies += "org.typelevel" %% "cats-core" % "1.4.0"
 libraryDependencies += "org.typelevel" %% "cats-mtl-core" % "0.3.0"
 libraryDependencies += "org.typelevel" %% "kittens" % "1.0.0"
